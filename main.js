@@ -1,5 +1,3 @@
-const xxx='https://pbs.twimg.com/profile_images/737359467742912512/t_pzvyZZ_400x400.jpg'
-
 const availablePets = [
     {
     image: 'https://pbs.twimg.com/profile_images/378800000575072875/d00489c579174e37b1b630425d93e19c_400x400.jpeg',
@@ -73,21 +71,9 @@ const init = () => {
 init();
 
 
-
-// function hide(myClass) {
-//     var myClasses = document.querySelectorAll(myClass),
-//         i = 0,
-//         l = myClasses.length;
-
-//     for (i; i < l; i++) {
-//         myClasses[i].style.display = 'none';
-//     }
-// }
-
 const hide = (hideDiv) => {
     let divName = `div.${hideDiv}`;
     let classes = document.querySelectorAll(divName);
-    console.log(classes);
     for (i=0; i < classes.length; i++) {
         classes[i].style.display = 'none';
     }
@@ -95,7 +81,6 @@ const hide = (hideDiv) => {
 
 const showAll = () => {
     let classes = document.querySelectorAll('div.card');
-    console.log(classes);
     for (i=0; i < classes.length; i++) {
         classes[i].style.display = 'block';
     }
@@ -112,7 +97,6 @@ const showDogs = () => {
     showAll();
     hide('CatCard')
     hide('FishCard')
-    
 }
 
 const showFish = () => {
@@ -120,4 +104,3 @@ const showFish = () => {
     hide('CatCard')
     hide('DogCard')   
 }
-
