@@ -3,9 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header {
     background-color: grey;
 }
+
 
 #main-content {
     display: flex;
@@ -13,6 +15,10 @@ header {
     justify-content: center;
     width: 1000px;
     margin: auto;
+}
+
+button:focus {
+    outline:0;
 }
 
 .myButton {
