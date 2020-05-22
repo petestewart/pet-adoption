@@ -70,7 +70,6 @@ const init = () => {
 
 init();
 
-
 const hide = (hideDiv) => {
     let divName = `div.${hideDiv}`;
     let classes = document.querySelectorAll(divName);
@@ -85,7 +84,6 @@ const showAll = () => {
         classes[i].style.display = 'block';
     }
 }
-
 
 const showCats = () => {
     showAll();
