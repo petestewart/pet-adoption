@@ -21,6 +21,6 @@ It was built as an exercise to learn how to print to the DOM from a .js file.
 [![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#)
 
 ### Backlog
-[ ] Improve CSS stylization/appearance of page
-[ ] Make filters sticky
-[ ] Change appearance of button to reflect currently active filter(s)
+- [ ] Improve CSS stylization/appearance of page
+- [ ] Make filters sticky
+- [ ] Change appearance of button to reflect currently active filter(s)
