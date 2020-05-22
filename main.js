@@ -70,6 +70,7 @@ const init = () => {
 
 init();
 
+
 const hide = (hideDiv) => {
     let divName = `div.${hideDiv}`;
     let classes = document.querySelectorAll(divName);
@@ -103,4 +104,3 @@ const showFish = () => {
     hide('CatCard')
     hide('DogCard')   
 }
-
