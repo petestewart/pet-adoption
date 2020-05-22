@@ -12,7 +12,7 @@ It was built as an exercise to learn how to print to the DOM from a .js file.
 
 ## Installation
 * Clone this repo to your local machine using `https://github.com/petestewart72/pet-adoption`
-* Run in any http server with `hs`
+* Run in any http server with `$ hs`
 
 ## Contributors
 * [Pete Stewart](https://github.com/petestewart72)
