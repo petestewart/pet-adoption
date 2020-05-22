@@ -3,9 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 header {
     background-color: grey;
 }
+
 
 #main-content {
     display: flex;
